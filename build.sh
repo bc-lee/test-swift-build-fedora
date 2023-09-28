@@ -3,7 +3,7 @@
 set -exo pipefail
 
 dnf update -y
-dnf install -y which git rpm-build mock rpmdevtools
+dnf install -y which git rpm-build rpmdevtools
 
 mkdir -p /src
 cd /src

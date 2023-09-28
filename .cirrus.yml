@@ -1,26 +1,26 @@
-task:
-  name: fedora_38_x86_64
-  timeout_in_minutes: 120
-  container:
-    image: fedora:38
-    cpu: 8
-    memory: 16G
-    greedy: true
-
-  build_script: |
-    ./build.sh
-
-task:
-  name: fedora_39_x86_64
-  timeout_in_minutes: 120
-  container:
-    image: fedora:39
-    cpu: 8
-    memory: 16G
-    greedy: true
-
-  build_script: |
-    ./build.sh
+#task:
+#  name: fedora_38_x86_64
+#  timeout_in_minutes: 120
+#  container:
+#    image: fedora:38
+#    cpu: 8
+#    memory: 16G
+#    greedy: true
+#
+#  build_script: |
+#    ./build.sh
+#
+#task:
+#  name: fedora_39_x86_64
+#  timeout_in_minutes: 120
+#  container:
+#    image: fedora:39
+#    cpu: 8
+#    memory: 16G
+#    greedy: true
+#
+#  build_script: |
+#    ./build.sh
 
 task:
   name: fedora_38_aarch64
