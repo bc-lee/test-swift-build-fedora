@@ -3,7 +3,7 @@
 set -exo pipefail
 
 dnf update -y
-dnf install -y which git rpm-build rpmdevtools
+dnf install -y which git rpm-build rpmdevtools dnf-plugins-core
 
 mkdir -p /src
 cd /src
